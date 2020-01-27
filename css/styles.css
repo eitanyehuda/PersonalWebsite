@@ -111,6 +111,10 @@ p {
 	font-family: 'open_sanslight', sans-serif;
 	color: #555;
 }
+.reference {
+	margin-top: 50px;
+	font-size: 10px;
+}
 .uk-margin-large-bottom.section_subtitle {
 	margin-bottom: 60px !important;
 }
@@ -708,6 +712,13 @@ p {
     display: block;
     margin-right: 3px;
 }
+.project_pic {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	padding: 2em 0em 0em 0em;
+	margin: -2em;
+}
 
 /******* Statistic section *******/
 
@@ -982,6 +993,11 @@ p {
 .reviews_image {
 	border-radius: 100%;
 }
+.distinct_background {
+	border-radius: 0%;
+	background-color: #363636;
+	box-shadow: 0px 0px 0px 29px #f5f5f5 inset;
+}
 .reviews_name {
 	margin-top: 5px;
     color: #555;
@@ -1067,7 +1083,7 @@ p {
 
 .footer {
 	padding: 100px 0;
-	background: #fff;
+	background: #f5f5f5;
 }
 .social_list {
 	font-size: 0;
@@ -1134,8 +1150,8 @@ p {
 }
 .uk-icon-instagram.social_list_item_link:hover {
 	color: #fff;
-	background: #44749C;
-	border: 2px solid #44749C;
+	background: #ce3c9f;
+	border: 2px solid #ce3c9f;
 }
 .uk-icon-behance.social_list_item_link:hover {
 	color: #fff;
@@ -1146,6 +1162,11 @@ p {
 	color: #fff;
 	background: #00aff1;
 	border: 2px solid #00aff1;
+}
+.uk-icon-github.social_list_item_link:hover {
+	color: #fff;
+	background: #04b88b;
+	border: 2px solid #04b88b;
 }
 
 /******* Contact *******/
@@ -1310,6 +1331,7 @@ p {
 .map {
 	height: 600px;
 	border: 0;
+	height: 0;
 }
 
 /******* Scroll button *******/
