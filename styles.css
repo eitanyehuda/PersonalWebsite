@@ -286,7 +286,7 @@ p {
 /******* Container section *******/
 
 .container {
-	background: url('http://placehold.it/1920x1080') no-repeat center center;
+	background: url('https://colorlib.com/preview/theme/jony/img/banner/banner.png') no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -300,7 +300,7 @@ p {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(0,0,0,.25);
+	background: rgba(0,0,0,0); /*4th int is overlay for image background*/
 	z-index: 1;
 }
 .container_clear.container:after {
@@ -1153,6 +1153,16 @@ p {
 	background: #ce3c9f;
 	border: 2px solid #ce3c9f;
 }
+.uk-icon-globe.social_list_item_link:hover {
+	color: #fff;
+	background: #00d09c;
+	border: 2px solid #00d09c;
+}
+.uk-icon-graduation-cap.social_list_item_link:hover {
+	color: #fff;
+	background: #7a003c;
+	border: 2px solid #7a003c;
+}
 .uk-icon-behance.social_list_item_link:hover {
 	color: #fff;
 	background: #005cff;
@@ -1165,8 +1175,8 @@ p {
 }
 .uk-icon-github.social_list_item_link:hover {
 	color: #fff;
-	background: #04b88b;
-	border: 2px solid #04b88b;
+	background: #00d09c;
+	border: 2px solid #00d09c;
 }
 
 /******* Contact *******/
@@ -1329,7 +1339,7 @@ p {
 /******* Map *******/
 
 .map {
-	height: 600px;
+	/*height: 600px;*/
 	border: 0;
 	height: 0;
 }
@@ -1899,7 +1909,8 @@ p {
 		height: 270px;
 	}
 	.map {
-		height: 450px;
+		/*height: 450px;*/
+		height: 0;
 	}
 	.features,
 	.statistic,
@@ -2007,7 +2018,8 @@ p {
 		margin: 0 0 0 -25px;
 	}
 	.map {
-		height: 300px;
+		/*height: 300px;*/
+		height: 0;
 	}
 	.form_button {
 		min-width: 100px;
